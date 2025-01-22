@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculatrice Budget</h1>
+    <h2 id="solde">Solde : 0.00 €</h2>
+        <form>
+            <input type="text" name="text1" placeholder="Libellé">
+            <input type="text" name="text2" placeholder="Revenu">
+            <input type="text" name="text3" placeholder="Dépense">
+            <input type="button" name="button1" value="Ajouter" onclick="ajouterLigne()">
+        </form>
+        <br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Libellé</th>
+                    <th>Revenu (€)</th>
+                    <th>Dépense (€)</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>0.00</td>
+                    <td>0.00</td>
+                </tr>
+            </tfoot>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>

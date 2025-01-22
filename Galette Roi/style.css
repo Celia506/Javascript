@@ -1,0 +1,24 @@
+html{
+    background-image: url(/galetteRoi24.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body { 
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    text-align: center; 
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+} 
+.buttons {
+    margin: 20px;
+    padding: 10px;
+}
+button{
+    background-color: rgb(68, 199, 68);
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+}
